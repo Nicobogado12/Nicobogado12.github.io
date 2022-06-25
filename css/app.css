@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 html {
     box-sizing: border-box;
     font-size: 62.5%; /* 1REM = 10px */
@@ -99,6 +101,9 @@ img {
 .nombre-sitio span {
     color: #037bc0;
 }
+
+
+
 .contenedor-navegacion {
     border-top: .1rem solid #e1e1e1;
 }
@@ -288,6 +293,14 @@ img {
     border-top: 1px solid #e1e1e1;
     margin-top: 5rem;
     padding-top: 5rem;
+    background: rgba(25,22,84,1);
+    background: -moz-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,22,84,1)), color-stop(100%, rgba(67,198,172,1)));
+    background: -webkit-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+    background: -o-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+    background: -ms-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+    background: linear-gradient(to right, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191654', endColorstr='#43c6ac', GradientType=1 );
 }
 .site-footer h3 {
     margin-bottom: .5rem;
