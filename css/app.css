@@ -1,8 +1,7 @@
-@import 'animate.css';
 
-html {
+/* html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1REM = 10px */
+    font-size: 62.5%; /* 1REM = 10px 
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -11,9 +10,14 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
-}
+} */
+*/
 
-/* Globales */
+
+
+
+
+/* Globales 
 h1, 
 h2, 
 h3 {
@@ -47,17 +51,28 @@ h3 {
 a {
     text-decoration: none;
     color: #000;
-}
-.contenedor {
+}*/
+
+
+
+
+
+/* .contenedor {
     max-width: 120rem;
     margin: 0 auto;
 }
 img {
     max-width: 100%;
     display: block;
-}
+} */
 
-.btn {
+
+
+
+
+
+
+/* .btn {
     background-color: #8cbc00;
     display: block;
     color: #FFF;
@@ -78,10 +93,13 @@ img {
     .btn {
         width: auto;
     }
-}
+} */
 
 
-/** Utilidades */
+
+
+
+/* Utilidades 
 .text-center {
     text-align: center;
 }
@@ -91,16 +109,20 @@ img {
         max-width: 30rem;
     }
 }
+*/
 
 
-/** Header y Navegacion **/
+
+
+
+/* * Header y Navegacion *
 .nombre-sitio {
     margin-top: 5rem;
     text-align: center;
 }
-.nombre-sitio span {
-    color: #037bc0;
-}
+    .nombre-sitio span {
+        color: #037bc0;
+    }
 
 
 
@@ -133,9 +155,14 @@ img {
     .hero {
         height: 55rem;
     }
-}
+} */
 
-/** Categorias **/
+
+
+
+
+
+/** Categorias 
 .categorias {
     padding: 5rem 0;
 }
@@ -168,9 +195,11 @@ img {
         gap: 2rem;
     }
     
-}
+}**/
 
-/** Bloque Nosotros */
+
+
+/** Bloque Nosotros 
 .sobre-nosotros {
     background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
     background-position: center, top left;
@@ -207,8 +236,12 @@ img {
         grid-column: 2 / 3;
     }
 }
+*/
 
-/** Listado de Productos **/
+
+
+
+/* * Listado de Productos *
 .contenido-principal {
     padding-top: 5rem;
 }
@@ -259,6 +292,8 @@ img {
 
 
 
+
+
 .producto {
     background-color: #037bc0;
     margin-bottom: 2rem;
@@ -286,21 +321,17 @@ img {
 .texto-producto .precio {
     font-size: 2.8rem;
     font-weight: 900;
-}
+} */
 
-/** Footer **/
+
+
+
+
+/* * Footer *
 .site-footer {
     border-top: 1px solid #e1e1e1;
     margin-top: 5rem;
     padding-top: 5rem;
-    background: rgba(25,22,84,1);
-    background: -moz-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,22,84,1)), color-stop(100%, rgba(67,198,172,1)));
-    background: -webkit-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
-    background: -o-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
-    background: -ms-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
-    background: linear-gradient(to right, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191654', endColorstr='#43c6ac', GradientType=1 );
 }
 .site-footer h3 {
     margin-bottom: .5rem;
@@ -340,7 +371,7 @@ img {
 .copyright {
     margin-top: 5rem;
     text-align: center;
-}
+} */
 
 /** Nosotros **/
 .contenido-nosotros {
