@@ -393,6 +393,8 @@ img {
     }
 }
 
+
+
 /** Blog */
 @media (min-width: 768px) { 
     .contenedor-blog {
@@ -460,8 +462,10 @@ img {
     width: 40rem;
     object-fit: cover;
 }
+
+
 /* Formulario */
-.formulario {
+/* .formulario {
     max-width: 60rem;
     margin: 0 auto;
 }
@@ -495,6 +499,6 @@ img {
     flex: 1;
     border: 1px solid #e1e1e1;
     padding: 1rem;
-}
+} */
 
 

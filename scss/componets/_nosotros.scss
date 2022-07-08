@@ -18,12 +18,11 @@
                     grid-column: 2 / 3;
                     }
             }
-        @media (min-width: 768px) 
-            {
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: unset;
-                column-gap: 10rem;
-            }
+    @media (min-width: 768px){
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: unset;
+            column-gap: 10rem;
+    }
     }
     @media (min-width: 768px) 
     {

@@ -106,12 +106,13 @@ a {
   align-items: center;
 }
 @media (min-width: 768px) {
-  .contenedor-navegacion {
+  .contenedor-navegacion .nav-principal {
     justify-content: space-between;
     flex-direction: row;
   }
 }
 
+/*Imagen grande*/
 .hero {
   background-image: url(../img/principal.jpg);
   background-repeat: no-repeat;
@@ -129,11 +130,11 @@ a {
 .categorias {
   padding: 5rem 0;
 }
-.categorias .categoria {
+.categorias {
   margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
-  .categorias .categoria {
+  .categorias {
     margin-bottom: 0;
   }
 }
@@ -155,7 +156,7 @@ a {
   .categorias .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3rem;
   }
 }
 
@@ -315,6 +316,109 @@ a {
 .site-footer .copyright {
   margin-top: 5rem;
   text-align: center;
+}
+
+/** Nosotros **/
+.contenido-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 4rem;
+}
+.contenido-nosotros .informacion-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .contenido-nosotros .informacion-nosotros {
+    padding: 0;
+  }
+}
+
+/* Formulario */
+.formulario {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.formulario fieldset {
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+.formulario fieldset legend {
+  background-color: #005485;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.campo label {
+  flex-basis: 10rem;
+}
+.campo input:not([type=radio]),
+.campo textarea, .campo select {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .contenedor-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+  }
+}
+.entrada {
+  border-bottom: 2px solid #e1e1e1;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+}
+
+.entrada h2 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .entrada h2 {
+    text-align: left;
+  }
+}
+.contenido-blog {
+  padding: 2rem;
+}
+
+.entrada:last-of-type {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .entrada-meta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.entrada-meta p {
+  font-weight: bold;
+}
+
+.entrada-meta span {
+  color: #037bc0;
+}
+
+.contenido-entrada-blog {
+  width: 60rem;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

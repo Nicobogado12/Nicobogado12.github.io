@@ -3,7 +3,7 @@
     text-align: center;
         span {
             color: #037bc0;
-              }
+        }
 }
 
 .contenedor {
@@ -24,16 +24,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    @media (min-width: 768px)   {
-        justify-content: space-between;
-        flex-direction: row;
+        @media (min-width: 768px) {
+            justify-content: space-between;
+            flex-direction: row;
+        }
     }
 }
 
 
-
+/*Imagen grande*/
 .hero {
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
