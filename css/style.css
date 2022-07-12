@@ -1,5 +1,5 @@
 body .btn {
-  background-color: #78a6f0;
+  background-color: #b6a77e;
   display: block;
   color: #FFF;
   text-transform: uppercase;
@@ -8,6 +8,7 @@ body .btn {
   transition: background-color 0.3s ease-out;
   text-align: center;
   border: none;
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -56,7 +57,7 @@ body a {
   color: #000;
 }
 body .btn:hover {
-  background-color: #b1bdf5;
+  background-color: #9d9d9d;
   cursor: pointer;
 }
 @media (min-width: 768px) {
@@ -78,7 +79,7 @@ body .text-center {
   text-align: center;
 }
 .nombre-sitio span {
-  color: #e4c6b0;
+  color: #947545;
 }
 
 .contenedor {
@@ -141,7 +142,7 @@ body .text-center {
   font-size: 2rem;
 }
 .categorias a:hover {
-  background-color: #e4c6b0;
+  background-color: #947545;
   color: #FFFFFF;
   border-bottom-right-radius: 1rem;
 }
@@ -182,7 +183,7 @@ body .text-center {
 }
 @media (min-width: 768px) {
   .sobre-nosotros {
-    background-image: linear-gradient(to right, transparent 50%, #96c1f4 50%, #96c1f4 100%), url(../img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%, #714d38 50%, #714d38 100%), url(../img/nosotros.jpg);
     background-position: left center;
     padding: 10rem 0;
     background-size: 100%, 160rem;
@@ -238,7 +239,7 @@ body .text-center {
 }
 
 .producto {
-  background-color: #e4c6b0;
+  background-color: #947545;
   margin-bottom: 2rem;
 }
 .producto .texto-producto {
@@ -337,7 +338,7 @@ body .text-center {
   margin-bottom: 2rem;
 }
 .formulario fieldset legend {
-  background-color: #e4c6b0;
+  background-color: #947545;
   width: 100%;
   text-align: center;
   color: #FFF;
