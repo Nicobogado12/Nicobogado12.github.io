@@ -1,0 +1,27 @@
+@import "variables";
+
+
+
+%call-to-action {
+    background-color: $botones;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+
+
+
+%efecto-escala {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+    transform:scale(1.5);
+    }
+}

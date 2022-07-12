@@ -1,4 +1,4 @@
-/** Categorias **/
+@import "../base/variables";
 
 
 .categorias {
@@ -13,13 +13,14 @@
     img {
         width: 100%;
     }
+
      a {
         text-align: center;
         display: block;
         padding: 2rem;
         font-size: 2rem;
         &:hover {
-            background-color: #037bc0;
+            background-color: $fondo;
             color: #FFFFFF;
             border-bottom-right-radius: 1rem;
         }

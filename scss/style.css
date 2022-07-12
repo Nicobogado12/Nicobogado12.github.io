@@ -1,3 +1,17 @@
+body .btn {
+  background-color: #78a6f0;
+  display: block;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -53,22 +67,8 @@ body a {
   color: #000;
 }
 
-body .btn {
-  background-color: #769c02;
-  display: block;
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 900;
-  padding: 1rem;
-  -webkit-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
-  text-align: center;
-  border: none;
-  width: 100%;
-}
-
 body .btn:hover {
-  background-color: #B9c6b9;
+  background-color: #b1bdf5;
   cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ body .text-center {
 }
 
 .nombre-sitio span {
-  color: #037bc0;
+  color: #e4c6b0;
 }
 
 .contenedor {
@@ -139,10 +139,10 @@ body .text-center {
 
 /*Imagen grande*/
 .hero {
-  background-image: url(../img/principal.jpg);
+  background-image: url(/img/inicial.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
   height: 25rem;
 }
 
@@ -152,7 +152,6 @@ body .text-center {
   }
 }
 
-/** Categorias **/
 .categorias {
   padding: 5rem 0;
 }
@@ -179,7 +178,7 @@ body .text-center {
 }
 
 .categorias a:hover {
-  background-color: #037bc0;
+  background-color: #e4c6b0;
   color: #FFFFFF;
   border-bottom-right-radius: 1rem;
 }
@@ -194,7 +193,6 @@ body .text-center {
   }
 }
 
-/** Bloque Nosotros */
 .sobre-nosotros {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #037bc0), to(#037bc0)), url(../img/nosotros.jpg);
   background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
@@ -239,15 +237,14 @@ body .text-center {
 
 @media (min-width: 768px) {
   .sobre-nosotros {
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #037bc0), to(#037bc0)), url(../img/nosotros.jpg);
-    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #96c1f4), to(#96c1f4)), url(../img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%, #96c1f4 50%, #96c1f4 100%), url(../img/nosotros.jpg);
     background-position: left center;
     padding: 10rem 0;
     background-size: 100%, 160rem;
   }
 }
 
-/** Listado de Productos **/
 .contenido-principal {
   padding-top: 5rem;
 }
@@ -310,7 +307,7 @@ body .text-center {
 }
 
 .producto {
-  background-color: #037bc0;
+  background-color: #e4c6b0;
   margin-bottom: 2rem;
 }
 
@@ -397,7 +394,6 @@ body .text-center {
   text-align: center;
 }
 
-/** Nosotros **/
 .contenido-nosotros {
   display: -ms-grid;
   display: grid;
@@ -429,7 +425,6 @@ body .text-center {
   }
 }
 
-/* Formulario */
 .formulario {
   max-width: 60rem;
   margin: 0 auto;
@@ -441,7 +436,7 @@ body .text-center {
 }
 
 .formulario fieldset legend {
-  background-color: #005485;
+  background-color: #e4c6b0;
   width: 100%;
   text-align: center;
   color: #FFF;

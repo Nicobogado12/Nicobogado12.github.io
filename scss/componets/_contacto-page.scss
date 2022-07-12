@@ -1,4 +1,6 @@
-/* Formulario */
+@import "../base/variables";
+
+
 .formulario {
     max-width: 60rem;
     margin: 0 auto;
@@ -9,7 +11,7 @@
    margin-bottom: 2rem;
    
         legend{ 
-            background-color: #005485;
+            background-color: $fondo;
             width: 100%;
             text-align: center;
             color: #FFF;

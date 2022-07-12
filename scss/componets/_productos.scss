@@ -1,5 +1,4 @@
-
-/** Listado de Productos **/
+@import "../base/variables";
 
 
 .contenido-principal {
@@ -51,9 +50,8 @@
 }
 
 }
-
 .producto {
-    background-color: #037bc0;  
+    background-color: $fondo;  
     margin-bottom: 2rem;
     .texto-producto {
         text-align: center;

@@ -1,8 +1,10 @@
+@import "../base/variables";
+
 .nombre-sitio {
     margin-top: 5rem;
     text-align: center;
         span {
-            color: #037bc0;
+            color: $fondo;
         }
 }
 
@@ -35,14 +37,13 @@
 
 /*Imagen grande*/
 .hero {
-    background-image: url(../img/principal.jpg);
+    background-image: url(/img/inicial.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: bottom center;
     height: 25rem;
 
-@media (min-width: 768px) 
-    {
+@media (min-width: 768px){
         height: 55rem;
     }
 }
