@@ -1,0 +1,10 @@
+Mi diseño de web es de una tienda de muebles
+
+En esta entrega modifique:
+
+*los colores: En tono marron y verde para que acopañe esteticamente al proyecto.
+*lorem: se quitaron los textos de relleno, fuero remplazados por texto real.
+
+
+SE AGREGARON ETIQUETAS DE SEO:
+la realidad es que use las etiquetas basicas 
