@@ -2,7 +2,7 @@
 
 
 .sobre-nosotros {
-    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
+    background-image: linear-gradient( to bottom, transparent 50%, $fondo-medio 50%, $fondo-medio 100% ), url(../img/nosotros.jpg);
     background-position: center, top left;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
@@ -12,13 +12,11 @@
     
             .texto-nosotros {
                 grid-row: 2 / 3;
-                color: #FFF;
+                color: $base-borde;
                 padding: 5rem;
         
-                    @media (min-width: 768px) 
-                    {
-                    grid-column: 2 / 3;
-                    }
+                    @media (min-width: 768px){
+                    grid-column: 2 / 3;}
             }
     @media (min-width: 768px){
             grid-template-columns: repeat(2, 1fr);
@@ -27,7 +25,7 @@
     }
     }
     @media (min-width: 768px){
-        background-image: linear-gradient( to right, transparent 50%, $fondo-dos 50%, $fondo-dos 100% ), url(../img/nosotros.jpg);
+        background-image: linear-gradient( to right, transparent 50%, $fondo-medio 50%, $fondo-medio 100% ), url(../img/nosotros.jpg);
         background-position: left center ;
         padding: 10rem 0;
         background-size: 100%, 160rem;

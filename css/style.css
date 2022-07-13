@@ -143,7 +143,7 @@ body .text-center {
 }
 .categorias a:hover {
   background-color: #947545;
-  color: #FFFFFF;
+  color: #947545;
   border-bottom-right-radius: 1rem;
 }
 @media (min-width: 768px) {
@@ -155,7 +155,7 @@ body .text-center {
 }
 
 .sobre-nosotros {
-  background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+  background-image: linear-gradient(to bottom, transparent 50%, #7F9A5F 50%, #7F9A5F 100%), url(../img/nosotros.jpg);
   background-position: center, top left;
   background-repeat: no-repeat;
   background-size: 100%, 70rem;
@@ -166,7 +166,7 @@ body .text-center {
 }
 .sobre-nosotros .sobre-nosotros-grid .texto-nosotros {
   grid-row: 2/3;
-  color: #FFF;
+  color: #e1e1e1;
   padding: 5rem;
 }
 @media (min-width: 768px) {
@@ -183,7 +183,7 @@ body .text-center {
 }
 @media (min-width: 768px) {
   .sobre-nosotros {
-    background-image: linear-gradient(to right, transparent 50%, #714d38 50%, #714d38 100%), url(../img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%, #7F9A5F 50%, #7F9A5F 100%), url(../img/nosotros.jpg);
     background-position: left center;
     padding: 10rem 0;
     background-size: 100%, 160rem;
@@ -244,7 +244,7 @@ body .text-center {
 }
 .producto .texto-producto {
   text-align: center;
-  color: #FFFFFF;
+  color: #e1e1e1;
   padding: 2rem;
 }
 .producto .texto-producto h3 {
@@ -266,7 +266,6 @@ body .text-center {
   }
 }
 
-/** Footer **/
 .site-footer {
   border-top: 1px solid #e1e1e1;
   margin-top: 5rem;
@@ -275,6 +274,7 @@ body .text-center {
 .site-footer h3 {
   margin-bottom: 0.5rem;
   text-align: center;
+  color: #7F9A5F;
 }
 @media (min-width: 768px) {
   .site-footer h3 {

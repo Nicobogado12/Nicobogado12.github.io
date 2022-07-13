@@ -1,5 +1,5 @@
 body .btn {
-  background-color: #78a6f0;
+  background-color: #b6a77e;
   display: block;
   color: #FFF;
   text-transform: uppercase;
@@ -9,6 +9,7 @@ body .btn {
   transition: background-color .3s ease-out;
   text-align: center;
   border: none;
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -68,7 +69,7 @@ body a {
 }
 
 body .btn:hover {
-  background-color: #b1bdf5;
+  background-color: #9d9d9d;
   cursor: pointer;
 }
 
@@ -94,7 +95,7 @@ body .text-center {
 }
 
 .nombre-sitio span {
-  color: #e4c6b0;
+  color: #947545;
 }
 
 .contenedor {
@@ -108,7 +109,7 @@ body .text-center {
 }
 
 .contenedor-navegacion {
-  border-top: .1rem solid #e1e1e1;
+  border-top: 0.1rem solid #e1e1e1;
 }
 
 .contenedor-navegacion .nav-principal {
@@ -178,8 +179,8 @@ body .text-center {
 }
 
 .categorias a:hover {
-  background-color: #e4c6b0;
-  color: #FFFFFF;
+  background-color: #947545;
+  color: #947545;
   border-bottom-right-radius: 1rem;
 }
 
@@ -194,8 +195,8 @@ body .text-center {
 }
 
 .sobre-nosotros {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #037bc0), to(#037bc0)), url(../img/nosotros.jpg);
-  background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #7F9A5F), to(#7F9A5F)), url(../img/nosotros.jpg);
+  background-image: linear-gradient(to bottom, transparent 50%, #7F9A5F 50%, #7F9A5F 100%), url(../img/nosotros.jpg);
   background-position: center, top left;
   background-repeat: no-repeat;
   background-size: 100%, 70rem;
@@ -212,7 +213,7 @@ body .text-center {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
-  color: #FFF;
+  color: #e1e1e1;
   padding: 5rem;
 }
 
@@ -237,8 +238,8 @@ body .text-center {
 
 @media (min-width: 768px) {
   .sobre-nosotros {
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #96c1f4), to(#96c1f4)), url(../img/nosotros.jpg);
-    background-image: linear-gradient(to right, transparent 50%, #96c1f4 50%, #96c1f4 100%), url(../img/nosotros.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #7F9A5F), to(#7F9A5F)), url(../img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%, #7F9A5F 50%, #7F9A5F 100%), url(../img/nosotros.jpg);
     background-position: left center;
     padding: 10rem 0;
     background-size: 100%, 160rem;
@@ -307,13 +308,13 @@ body .text-center {
 }
 
 .producto {
-  background-color: #e4c6b0;
+  background-color: #947545;
   margin-bottom: 2rem;
 }
 
 .producto .texto-producto {
   text-align: center;
-  color: #FFFFFF;
+  color: #e1e1e1;
   padding: 2rem;
 }
 
@@ -340,7 +341,6 @@ body .text-center {
   }
 }
 
-/** Footer **/
 .site-footer {
   border-top: 1px solid #e1e1e1;
   margin-top: 5rem;
@@ -350,6 +350,7 @@ body .text-center {
 .site-footer h3 {
   margin-bottom: .5rem;
   text-align: center;
+  color: #7F9A5F;
 }
 
 @media (min-width: 768px) {
@@ -436,7 +437,7 @@ body .text-center {
 }
 
 .formulario fieldset legend {
-  background-color: #e4c6b0;
+  background-color: #947545;
   width: 100%;
   text-align: center;
   color: #FFF;
