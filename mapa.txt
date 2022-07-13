@@ -6,5 +6,13 @@ En esta entrega modifique:
 *lorem: se quitaron los textos de relleno, fuero remplazados por texto real.
 
 
-SE AGREGARON ETIQUETAS DE SEO:
-la realidad es que use las etiquetas basicas 
+*SE AGREGARON ETIQUETAS DE SEO:
+keywords
+bots
+description
+etc.
+
+*SASS
+se agregaron variables, para los colores.
+se agregaron extends para los botones.
+
