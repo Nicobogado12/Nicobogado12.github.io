@@ -27,6 +27,10 @@
         flex-direction: column;
         align-items: center;
 
+        a{
+            cursor: url("/img/silloncito.png"),auto;
+        }
+
         @media (min-width: 768px) {
             justify-content: space-between;
             flex-direction: row;
