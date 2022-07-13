@@ -1,0 +1,44 @@
+@import "../base/variables";
+
+
+.categorias {
+    padding: 5rem 0;
+
+    & {
+        margin-bottom: 2rem;
+        @media (min-width: 768px){
+            margin-bottom: 0;
+        }
+    }
+    img {
+        width: 100%;
+    }
+
+     a {
+        text-align: center;
+        display: block;
+        padding: 2rem;
+        font-size: 2rem;
+        &:hover {
+            background-color: $fondo;
+            color: $fondo;
+            border-bottom-right-radius: 1rem;
+        }
+    }
+
+    @media (min-width: 768px) { 
+        .listado-categorias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
